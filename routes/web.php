@@ -11,8 +11,11 @@
 |
 */
 
+use Illuminate\Support\Facades\Route;
+
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::get('panel', 'Panel@index');
+Route::get('panel/news', 'Panel@news');

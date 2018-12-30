@@ -65,14 +65,7 @@
                     <a href="/panel" class="waves-effect"><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>Статистика</a>
                 </li>
                 <li>
-                    <a href="#" class="waves-effect"><i class="fa fa-user fa-fw" aria-hidden="true"></i>Profile</a>
-                </li>
-                <li>
-                    <a href="#" class="waves-effect"><i class="fa fa-table fa-fw" aria-hidden="true"></i>Basic
-                        Table</a>
-                </li>
-                <li>
-                    <a href="#" class="waves-effect"><i class="fa fa-font fa-fw" aria-hidden="true"></i>Icons</a>
+                    <a href="/panel/news" class="waves-effect"><i class="fa fa-hacker-news fa-fw" aria-hidden="true"></i>Новости</a>
                 </li>
             </ul>
         </div>
@@ -87,7 +80,7 @@
     <div id="page-wrapper">
         <div class="container-fluid">
 
-            Контент
+            {{$content}}
 
         </div>
     </div>

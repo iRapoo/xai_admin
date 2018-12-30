@@ -8,6 +8,12 @@ class Panel extends Controller
 {
     public function index()
     {
-        return view('panel');
+        return view('panel', ['content' => 'Статистика']);
+    }
+
+
+    public function news()
+    {
+        return view('panel', ['content' => 'Новости']);
     }
 }
