@@ -4,7 +4,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon.png">
 
 <title>Панель управления</title>
 
