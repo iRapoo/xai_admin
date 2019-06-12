@@ -17,5 +17,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('panel', 'Panel@index');
-Route::get('panel/news', 'Panel@news');
+Route::prefix('api/v2')->group(function () {
+
+    //METHODS DEVICE
+    Route::post('device', 'DeviceController@registration');
+    Route::post('md5_device', 'DeviceController@check_md5');
+    //METHODS SCHEDULE
+    Route::get('list_group', 'ScheduleController@students');
+    Route::get('list_teach', 'ScheduleController@teachers');
+    Route::get('schedule', 'ScheduleController@schedule');
+    Route::post('md5', 'ScheduleController@check_md5');
+
+});

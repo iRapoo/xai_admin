@@ -22,6 +22,7 @@ class CreateTeachersTable extends Migration
             $table->string('extra', '255');
             $table->integer('active');
             $table->text('cause');
+            $table->timestamps();
         });
     }
 

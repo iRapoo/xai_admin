@@ -18,6 +18,7 @@ class CreateTeachListTable extends Migration
             $table->string('name', '255');
             $table->string('md5', '32');
             $table->integer('active');
+            $table->timestamps();
         });
     }
 

@@ -21,6 +21,7 @@ class CreateIncorrectsTable extends Migration
             $table->text('message');
             $table->text('manifest');
             $table->dateTime('datetime');
+            $table->timestamps();
         });
     }
 

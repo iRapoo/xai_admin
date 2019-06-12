@@ -23,6 +23,7 @@ class CreateTeachLessonTable extends Migration
             $table->integer('week');
             $table->integer('editor');
             $table->integer('active');
+            $table->timestamps();
         });
     }
 

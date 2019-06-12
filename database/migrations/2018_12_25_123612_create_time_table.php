@@ -18,6 +18,7 @@ class CreateTimeTable extends Migration
             $table->string('version', '255');
             $table->integer('time');
             $table->dateTime('datetime');
+            $table->timestamps();
         });
     }
 

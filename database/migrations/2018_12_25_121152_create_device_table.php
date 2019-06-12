@@ -22,6 +22,7 @@ class CreateDeviceTable extends Migration
             $table->string('version', '255');
             $table->string('firebase_token', '255');
             $table->dateTime('DATETIME');
+            $table->timestamps();
         });
     }
 
